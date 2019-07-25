@@ -88,14 +88,15 @@ class KdTree:
     def dist(self, x1, x2):
         return (np.sum((np.array(x1)-np.array(x2))**2))**0.5
 
-
-data = [[2, 3], [5, 4], [9, 6], [4, 7], [8, 1], [7, 2]]
-x = [5, 3]
-# data = [[2,4], [6,1.5], [4,7], [8,2.5], [7.5,4.5],[1,1],[1.5,7]]
-# x = [6,3]
-kdtree = KdTree()
-tree = kdtree.create(data)
-# kdtree.preOrder(tree)
-kdtree.search(tree, x, 3)
-print(kdtree.nearest)
-print(kdtree.nearestDis)
+    
+if __name__ == "__main__":
+    data = [[2, 3], [5, 4], [9, 6], [4, 7], [8, 1], [7, 2]]
+    x = [5, 3]
+    # data = [[2,4], [6,1.5], [4,7], [8,2.5], [7.5,4.5],[1,1],[1.5,7]]
+    # x = [6,3]
+    kdtree = KdTree()
+    tree = kdtree.create(data)
+    # kdtree.preOrder(tree)
+    kdtree.search(tree, x, 3)
+    print(kdtree.nearest)
+    print(kdtree.nearestDis)
