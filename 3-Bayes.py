@@ -3,7 +3,7 @@
 """
 This code was done by zhangyuan818
 which is published in https://github.com/zhangyuan818/code-realization-in-Statistical-Learning-method
-and my blog is https://www.cnblogs.com/hellozy
+and my blog is https://blog.csdn.net/u013731486
 everyone is welcome to contact me via 1453534820@qq.com
 """
 
