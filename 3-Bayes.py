@@ -2,9 +2,9 @@
 # _*_ coding: utf-8 _*_
 """
 This code was done by zhangyuan818
-which is published in https://github.com/zhangyuan818/code-realization-in-Statistical-Learning-method
+which is published in https://github.com/zhangyuan818/Statistical_Learning_method
 and my blog is https://blog.csdn.net/u013731486
-everyone is welcome to contact me via 1453534820@qq.com
+everyone is welcome to contact me via zhangyuan18g@ict.ac.cn
 """
 
 import numpy as np
